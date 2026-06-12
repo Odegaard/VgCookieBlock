@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Cookie Popup Blocker",
+  "version": "1.1",
+  "description": "Removes Sourcepoint cookie consent popups and scroll locks",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "host_permissions": ["*://*/*"]
+}
