@@ -1,6 +1,6 @@
-# no-consent
+# VgCookieBannerBlock
 
-Nettleserutvidelse for Chrome og Brave som fjerner samtykke-popups og gjenoppretter scrolling på norske nettsteder.
+Browser extension som blokker vg sin godta alt cookie banner eller betal
 
 ## Installasjon
 
